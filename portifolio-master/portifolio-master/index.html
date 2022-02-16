@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+  
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Front End </h1>
+                <p>Brenda Ferreira Santos</p>
+              
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+     
+            </ul>
+          </nav>
+          <div class="social-media">
+        <a href="https://www.linkedin.com/in/brenda-ferreira-santos-ba839217b">   <img src="https://img.icons8.com/color/48/000000/linkedin.png"/> </a> 
+            
+        <a href="https://api.whatsapp.com/send?phone=5527996409749&text=">  <img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a> 
+            
+           
+          </div>
+        </aside>
+
+      
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj1.png" alt="imagem do projeto ToDo" />
+              </div>
+              <div class="card-info">
+                <h2>Projeto Um</h2>
+                <h3>Calculadora</h3>
+                <p>Um Mini projeto de uma simulação de uma calculadora, com as Operações Aritméticas.</p>
+                <a href="projetos/06-Calculadora/index.html"> <button  class="btn" >Veja Mais</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj2.png" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Projeto Dois</h2>
+                <h3>Play Musica</h3>
+                <p>Um Mini projeto que simula uma versão mais simples de um streaming.</p>
+                <a href="projetos/musica/index.html">   <button class="btn">Veja Mais</button> </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.png" alt="imagem do projeto Casa Bela" />
+              </div>
+              <div class="card-info">
+                <h2>Projeto Três</h2>
+                <h3>Lâmpada</h3>
+                <p> Um Mini projeto que simula uma ação de uma Lâmpada</p>
+                <a href="projetos/01-lamp/index.html"> <button class="btn">Veja Mais</button> </a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form action="mailto:brendaferreirasantos26@gmail.com" method="POST" enctype="text/plain">
+                
+                <p class="texto_solo">Clique abaixo para enviar um e-mail </p>
+              
+                <button type="submit" onclick="avisar()" class="btn btn-submit">Enviar</button>
+                
+                
+              </form>
+            </div>
+          </div>
+        </section>
+
+       
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              Pórtifolio de Brenda Ferreira Santos
+            </p>
+            <div class="social-list">
+              <ul>
+                <a href="https://www.linkedin.com/in/brenda-ferreira-santos-ba839217b">     <img src="https://img.icons8.com/color/48/000000/linkedin.png"/> </a>
+                
+                <a href="https://api.whatsapp.com/send?phone=5527996409749&text=">  <img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a>
+           
+            
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
